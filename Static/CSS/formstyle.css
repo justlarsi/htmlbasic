@@ -1,0 +1,60 @@
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 20px;
+}
+.container h2{
+    text-align: center;
+}
+.formgroup{
+    margin-bottom: 20px;
+}
+.formgroup label{
+    margin-top: 5px;
+    display: block;
+    font-weight: bold;
+}
+.formgroup input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #2ba12b;
+}
+.formgroup button{
+    width: 30%;
+    padding: 10px;
+    background-color: black;
+    color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.formgroup button:hover{
+    background-color: orange;
+}
+body{
+    font-family: "Gill Sans MT", serif;
+
+}
+.formgroup option{
+    font-family: "Agency FB";
+    background-color: brown;
+}
+.formgroup textarea{
+    font-family: Algerian;
+    
+}
+.formgroup select{
+    width: 50%;
+    height: 40px;
+}
+.formgroup select:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+.formgroup option:hover{
+    background-color: aqua;
+    cursor: pointer;
+}

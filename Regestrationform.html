@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Static/CSS/formstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+</head>
+<body>
+<div class="container">
+  <h2>Registration page</h2>
+  <form>
+    <div class="formgroup">
+      <label for="username">Username:</label>
+      <input type="text"id="username" placeholder="username" name="username" required>
+    </div>
+    <div class="formgroup">
+      <label for="email">email</label>
+      <input type="email"id="email" placeholder="email" name="email" required>
+    </div>
+      <div class="gender">
+          <label for="Male">Male</label>
+          <input type="radio"id="Male" NAME="gender">
+          <label for="Female">Female</label>
+          <input type="radio"id="Female" NAME="gender">
+          <label for="Prefer Not To Say">Prefer Not To Say</label>
+          <input type="radio"id="Prefer Not To Say" NAME="gender">
+      </div>
+      <div class="formgroup">
+          <label for="Date Of Birth">Date Of Birth</label>
+          <input type="date" id="Date Of Birth" name="Date of birth">
+      </div>
+    <div class="formgroup">
+      <label for="password">password</label>
+      <input type="password" id="password" placeholder="password" name="password">
+    </div>
+      <div class="formgroup">
+          <label for="confirm_password">confirm_password</label>
+          <input type="password" id="confirm_password" placeholder="confirm_password" name="confirm_password">
+      </div>
+      <div class="formgroup">
+          <label for="courses">course taken</label>
+          <select name="course" id="courses">
+              <option value="js">JavaScript</option>
+              <option value="FS">FullStack</option>
+              <option value="Datascience">DataScience</option>
+              <option value="Cyber">CyberSecurity</option>
+              <option value="programming">Programing</option>
+          </select>
+
+      </div>
+      <div class="formgroup">
+          <label for="Message">Message</label>
+          <textarea name="Message" id="message" cols="30" rows="5"></textarea>
+      </div>
+      <div class="formgroup">
+          <button type="submit">Register</button>
+      </div>
+
+  </form>
+</div>
+</body>
+</html>

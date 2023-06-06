@@ -1,0 +1,71 @@
+ul{
+    list-style-type: decimal;
+    background-color:green;
+    overflow: hidden;
+
+}
+li{
+    float: left;
+}
+li,a{
+    padding: 10px;
+    display: block;
+    color: bisque;
+    font-family: "Arial Black", serif;
+}
+ li a:hover{
+    background-color: black;
+     font-family: "Bauhaus 93", serif;
+
+}
+
+ .money{
+     background-color: #2ba12b;
+     border: 2px solid black;
+     margin: 20px;
+     padding: 20px;
+     text-align: center;
+     font-family: Castellar, serif;
+ }
+ .cars{
+     background-color: #3d3dc0;
+     border: 2px solid black;
+     margin: 20px;
+     padding: 20px;
+     text-align: center;
+     font-family: "Arial Rounded MT Bold", serif;
+ }
+ .food{
+     background-color: orange;
+     border: 2px solid black;
+     margin: 20px;
+     padding: 20px;
+     text-align: center;
+     font-family: "Bradley Hand ITC", serif;
+ }
+ .sport{
+     background-color: lightskyblue;
+     border: 2px solid rgba(255, 255, 255, 0.38);
+      margin: 20px;
+     padding: 20px;
+     text-align: center;
+     font-family: "Franklin Gothic Medium", serif;
+
+ }
+ #gari{
+      background-color: red;
+     border: 2px solid pink;
+      margin: 20px;
+     padding: 20px;
+     text-align: center;
+     font-family: "Agency FB", serif;
+ }
+ #matunda{
+     background-color: green;
+     border: 2px solid YELLOW;
+      margin: 20px;
+     padding: 20px;
+     text-align: center;
+     font-family: "Arial Black", serif;
+
+ }
